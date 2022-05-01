@@ -1,0 +1,161 @@
+
+a, button, input, label {
+  cursor: pointer
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+/* CSS */
+
+/* Mobile */
+@media (max-width: 300px) {
+  div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* CSS variables */
+:root {
+  --color-bg: ;
+  --color-primary: lightgrey;
+}
+
+/* CSS */
+
+body {
+  max-height: 2500px;
+  display: flex;
+}
+
+.title {
+  width: 10rem;
+  font-size: 1.01em;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
+
+main {
+  margin-bottom: 7vw;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 100px;
+  margin-left: 30vw;
+  max-width: 200px;
+}
+
+.list {
+  margin-bottom: 5vw;
+}
+
+.img {
+  width: 129px;
+  height: 100px;
+}
+
+#tile_außer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tile {
+  width: 131px;
+  height: 200px;
+  margin-right: 1vw;
+  border: 0.5px solid black;
+  display: grid;
+  padding: 0.1px;
+}
+
+/*
+.tile:nth-child(1) {
+  border-top: 2px solid darkolivegreen;
+}
+
+.tile:nth-child(3) {
+  border-top: 2px solid salmon;
+}
+
+.tile:nth-child(2) {
+  border-top: 2px solid yellowgreen;
+}
+*/
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.5em;
+  line-height: 1.3em;
+  font-family: helvetica;
+  border-top: 1px solid black;
+  max-width: 500px;
+  gap: 10px;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#news {
+  display: grid;
+  position: relative;
+  margin-bottom: 2vw;
+}
+
+.news {
+  border: 1px dashed black;
+  padding: 1vw;
+  font-family: 'Andale Mono';
+  font-size: 12px;
+  width: 350px;
+  height: 120px;
+  padding: 1vw;
+  margin-top: 5vw;
+  border-radius: 10px;
+}
+
+#school {
+  display: grid;
+  position: relative;
+  padding: 1vw;
+}
+
+.school {
+  border: 1px solid black;
+  font-family: 'Andale Mono';
+  font-size: 12px;
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+span {
+  color: white;
+  background-color: green;
+  padding-left: 10px;
+  width: 50px;
+  height: 30px;
+}
+
+#animation {
+  margin: 1vw;
+  margin-top: 7vw;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
